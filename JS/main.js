@@ -64,6 +64,9 @@ function () {
 //QUESTION 2 
     // filter items based on price
     var cost = items.filter(function(item){
+      
+//the && and || operators actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value.
+
     
       return item.price > 14 &&
              item.price < 18;
